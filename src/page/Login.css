@@ -1,0 +1,48 @@
+.form-info input:not([ type="submit"]){
+    width: 100%;
+   padding: 10px 0px;
+   padding-left: 10px;
+   font-size: 16px;
+   margin-bottom: 15px;
+ }
+ .form-info {
+     text-align: left;
+     font-size: 20px;
+ }
+ .button{
+     width: 15%;
+     background-color: #dd2d0e;
+     border: none;
+     padding: 10px ;
+     color: white;
+     font-size: 20px;
+ }
+ .button:hover{
+     background-color: white;
+     border: 1px solid #dd2d0e;
+     color: black;
+    font-size: 20px;
+ }
+ .paragraph{
+     margin-top: 20px;
+     text-align: left;
+ }
+ .line {
+     height: 1px;
+ }
+ .form-box {
+   width: 50%;
+ }
+ .form-info input{
+    display:block;
+    width: 100%;
+ }
+ 
+ 
+ @media only screen and (max-width:800px){
+     .form-box {
+         width: 100%;
+       }
+       
+       
+ }

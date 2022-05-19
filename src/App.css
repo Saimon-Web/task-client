@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.cont2 {  text-decoration: line-through;
+  color: red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
